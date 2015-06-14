@@ -1,0 +1,22 @@
+﻿@using PoolMonitoringWebRole.Models
+@model IEnumerable<PoolSensorData>
+
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>Pools Sensor Data </h2>
+
+@if (!@Model.Any())
+{
+    <p>No sensor data :(</p>
+}
+else
+{
+    <ul>
+        @foreach (PoolSensorData poolSensorData in Model)
+        {
+            <li>@Html.ActionLink(poolSensorData.Pool.Name, "Details", "PoolSensorDatas", new { id = poolSensorData.PoolId }, null)</li>
+        }
+    </ul>
+}
