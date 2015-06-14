@@ -5,8 +5,8 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="marc.nazarian" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBhlE9kpM1OkR0QYD9dGg/owDQYJKoZIhvcNAQEBBQAEggEAuFgNWyKoY9WpnZ8j1vJj7+yjmw++I0i67oXDhk6WrhhYNxi2GOpL+8Y4UXRBn55hUMcchQ+tUbEYz6yx2y8kp25QNHtx/fWsP5uhyKKc3OMuQCzku3aBHZAvSk4Ufxkkk66M2Xbrlyv5r3NQjZv/BDNva0D7gz8kZe9Y4vkxiUFiio5lrOa19439BhjIzhRdX6KTmNf2+h36gqO+L7EfI3RU8n40YKMwfCPMQmO71SCwE8JfmlnT1AL0ajaw9KDgB9epwrejyIXgaDgMW/pNErVCpAsDMI4TR1BGQW/ahilT9WxAjmbJMJBY5VdCqroAs4QTNvh/xYnyazcKbUHPyjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECE3m0gToiMKYgBDP5jzwmx+tEaKIiwZqSuxM" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="<your_azure_account_username_here>" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="<this_is_generated>" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-06-14T23:59:59.0000000+02:00" />
       <Setting name="PoolMonitoringDatabase" value="Data Source=(localdb)\v11.0; Initial Catalog=PoolMonitoringContext-20150614140058; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PoolMonitoringContext-20150614140058.mdf" />
     </ConfigurationSettings>
