@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <PublishProfile Include="Profiles\poolmonitoringProduction.azurePubxml" />
+    <PublishProfile Include="Profiles\poolmonitoringProduction1.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

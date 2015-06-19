@@ -13,7 +13,6 @@
     </Endpoints>
     <Imports>
       <Import moduleName="Diagnostics" />
-      <Import moduleName="RemoteAccess" />
     </Imports>
     <ConfigurationSettings>
       <Setting name="PoolMonitoringDatabase" />
@@ -22,8 +21,6 @@
   <WorkerRole name="PoolMonitoringWorkerRole" vmsize="Small">
     <Imports>
       <Import moduleName="Diagnostics" />
-      <Import moduleName="RemoteAccess" />
-      <Import moduleName="RemoteForwarder" />
     </Imports>
     <ConfigurationSettings>
       <Setting name="Microsoft.ServiceBus.ConnectionString" />

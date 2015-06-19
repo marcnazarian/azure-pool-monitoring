@@ -4,30 +4,15 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="<your_azure_account_username_here>" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="<this_is_generated>" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-06-14T23:59:59.0000000+02:00" />
-      <Setting name="PoolMonitoringDatabase" value="Data Source=(localdb)\v11.0; Initial Catalog=PoolMonitoringContext-20150614140058; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PoolMonitoringContext-20150614140058.mdf" />
+      <Setting name="PoolMonitoringDatabase" value="Data Source=(localdb)\v11.0; Initial Catalog=PoolMonitoringDatabase; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PoolMonitoringDatabase.mdf" />
     </ConfigurationSettings>
-    <Certificates>
-      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="8C7AECEB7687F96CFC1FE93BF4BF12EE518085E2" thumbprintAlgorithm="sha1" />
-    </Certificates>
   </Role>
   <Role name="PoolMonitoringWorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="Microsoft.ServiceBus.ConnectionString" value="<your_service_bus_connection_string_here>" />
-      <Setting name="PoolMonitoringDatabase" value="Data Source=(localdb)\v11.0; Initial Catalog=PoolMonitoringContext-20150614140058; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PoolMonitoringContext-20150614140058.mdf" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="<your_azure_account_username_here>" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="<this_is_generated>" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-06-14T23:59:59.0000000+02:00" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="PoolMonitoringDatabase" value="Data Source=(localdb)\v11.0; Initial Catalog=PoolMonitoringDatabase; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|PoolMonitoringDatabase.mdf" />
     </ConfigurationSettings>
-    <Certificates>
-      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="<this_is_generated>" thumbprintAlgorithm="sha1" />
-    </Certificates>
   </Role>
 </ServiceConfiguration>
