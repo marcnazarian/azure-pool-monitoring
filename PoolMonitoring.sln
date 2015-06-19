@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolMonitoringWebRole", "Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolMonitoringWorkerRole", "PoolMonitoringWorkerRole\PoolMonitoringWorkerRole.csproj", "{B83474FC-6E2E-4E2A-9E11-CA73884F6788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoolSensorEmulator", "PoolSensorEmulator\PoolSensorEmulator.csproj", "{98768DD4-4358-4821-87AC-27EABDD76FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B83474FC-6E2E-4E2A-9E11-CA73884F6788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B83474FC-6E2E-4E2A-9E11-CA73884F6788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B83474FC-6E2E-4E2A-9E11-CA73884F6788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98768DD4-4358-4821-87AC-27EABDD76FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98768DD4-4358-4821-87AC-27EABDD76FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98768DD4-4358-4821-87AC-27EABDD76FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98768DD4-4358-4821-87AC-27EABDD76FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
