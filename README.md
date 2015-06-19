@@ -13,9 +13,13 @@ Replace all the values into <> in files:
 - ServiceConfiguration.Cloud.cscfg
 - ServiceConfiguration.Local.cscfg
 - PoolMonitoringWorkerRole/App.config
+
 by connection strings of your newly created Azure items
+
 
 Build the project.
 
+
 Right-click on the cloud item on Visual Studio, 
+
 Publish...
